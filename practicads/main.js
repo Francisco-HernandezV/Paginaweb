@@ -13,8 +13,9 @@ function suma(){
         }else{
             h3.innerHTML="El valor 2 no es valido"
             document.getElementById("vl2").focus()
+          return
         }
-        return
+        
     }
 
     var resultado=valor1+valor2
@@ -33,8 +34,8 @@ function resta(){
         }else{
             h3.innerHTML="El valor 2 no es valido"
             document.getElementById("vl2").focus()
+            return
         }
-        return
     }
 
     var resultado=valor1-valor2
@@ -53,8 +54,8 @@ function multiplicaion(){
         }else{
             h3.innerHTML="El valor 2 no es valido"
             document.getElementById("vl2").focus()
+            return
         }
-        return
     }
 
     var resultado=valor1*valor2
@@ -73,8 +74,8 @@ function divicion(){
         }else{
             h3.innerHTML="El valor 2 no es valido"
             document.getElementById("vl2").focus()
+            return
         }
-        return
     }
 
     var resultado=valor1/valor2
