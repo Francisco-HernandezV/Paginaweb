@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 10px 20px 15px 20px;
+    font-style: italic;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px;
+}
+.tit{
+    color: rgb(135, 246, 9);
+    text-align: center;
+    font-size: 60px;
+}
+.hob{
+    color: rgb(6, 218, 237);
+    text-align: center;
+    font-size: 45px;
+}
+#especial{
+    color: rgb(252, 159, 0);
+    text-align: center;
+    font-size: 60px;
+}
+
+ol li {
+    color: rgb(56, 246, 9);
+    font-size: 20x;
+    padding: 10px; 
+}
+ul li{
+    color: rgb(246, 9, 218);
+    font-size: 20x;
+    padding: 10px;
+}
+.tbl{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    border-collapse:inherit;
+}
+th{
+    background-color: rgb(124, 1, 207);
+    color: rgb(6, 235, 201);
+    font-size: 25px;
+}
+td{
+    background-color: rgb(5, 75, 239);
+    color: rgb(6, 235,201);
+    font-size: 25px;
+    text-align: center;
+}
