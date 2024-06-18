@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion Francisco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" method="get">
+            <label for="nomUsuario">Ingrese su nomobre de usuario</label><br>
+            <input type="text" name ="nomUsuario" id=""
+            pattern="^[a-zA-Z0-9]{5,15}$"  placeholder="Nombre de Usuario"
+            title="Debe tener entre 5 y 15 caracteres alfanuméricos " required> <br>
+
+            <label for="password">Ingrese la contrasela</label><br>
+            <input type="text" id="password" name="password" placeholder="Contraseña"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$"
+            required> <br>
+
+            <label for="email">Ingrese un correo</label><br>
+            <input type="email" name="email" id="email" placeholder="Correo electronico"
+            title="Debe de ser un correo validado" required> <br>
+            
+            <label for="telefono">Ingrese su numero de telefono</label><br>
+            <input type="tel" name="telefono" id="telefono" placeholder="Numero de telefono"
+            pattern=" ^\+[0-9]{1,15}$" title="Debe de seguir el formato interacional, comenzando con el signo + y hasta 15 dígitos" required><br>
+
+            <label for="fNa">Ingrese su fecha de nacimiento</label><br>
+            <input type="date" name="fNa" id="fNa" pattern="\d{4}-\d{2}-\d{2}"
+            title="La fecha de nacimiento debe de estar en el formato YYYY-MM-DD" required><br>
+
+            <label for="cp">Ingrese su codigo postal</label><br>
+            <input type="text" name="cp" id="cp"
+            pattern="^\d{5}$" title="Debe incluir exactamente los 5 digitos" required><br>
+            
+            <br><button type="submit" class="button">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
